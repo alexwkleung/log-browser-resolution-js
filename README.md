@@ -37,6 +37,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 
+//log initial window resolution 
 console.log("Initial window resolution: " + window.outerWidth + " x " + window.outerHeight);
 
 //log window resolution on resize
@@ -52,7 +53,7 @@ const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
 root.render(
     <React.StrictMode>
-    <App></App>
+        <App></App>
     </React.StrictMode>
 );
 ```
